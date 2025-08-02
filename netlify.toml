@@ -1,0 +1,11 @@
+[build]
+  # Ścieżka do folderu, w którym jest twój frontend
+  base    = "frontend"
+  # Komenda budująca frontend
+  command = "npm install && npm run build"
+  # Katalog, który Netlify wrzuci na hosta
+  publish = "frontend/dist"
+
+[dev]
+  # (opcjonalnie) proxy do Twojego backendu w trakcie netlify dev
+  command = "npm run dev"
