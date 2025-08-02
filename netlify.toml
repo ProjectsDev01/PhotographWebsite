@@ -4,7 +4,7 @@
   # Komenda budująca frontend
   command = "npm install && npm run build"
   # Katalog, który Netlify wrzuci na hosta
-  publish = "frontend/dist"
+  publish = "dist"
 
 [dev]
   # (opcjonalnie) proxy do Twojego backendu w trakcie netlify dev
